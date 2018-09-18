@@ -5,6 +5,6 @@ UPDATE leagues
   WHERE `name` IN ('Harbinger', 'Harbinger Harcore');
 
 DELETE FROM leagues
-  WHERE `name` IN ('Incursion', 'Incursion Hardcore');
+  WHERE `name` IN ('Delve', 'Delve Hardcore');
 
 USE migrations;

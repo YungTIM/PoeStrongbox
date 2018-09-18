@@ -1,8 +1,8 @@
 USE poe_currency;
 
 INSERT INTO leagues (`name`, `active`, `css`) VALUES
-  ('Incursion', TRUE, 'incursion'),
-  ('Hardcore Incursion', TRUE, 'hardcore-incursion');
+  ('Delve', TRUE, 'delve'),
+  ('Hardcore Delve', TRUE, 'hardcore-delve');
 
 UPDATE leagues
   SET `active` = FALSE
